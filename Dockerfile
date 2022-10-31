@@ -1,5 +1,5 @@
 FROM lsiobase/ubuntu:a7da6fde-ls13
-LABEL maintainer="RandomNinjaAtk"
+LABEL Author=Snorkrat
 
 ENV TITLE="Automated Music Video Downloader (AMVD)"
 ENV TITLESHORT="AMVD"
