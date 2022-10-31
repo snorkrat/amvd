@@ -45,7 +45,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.SNORKRAT_REG_URL }}/${{ env.IMAGE_NAME_SHORT }}
+          images: ${{ secrets.SNORKRAT_REG_URL }}/amvd
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
